@@ -1,0 +1,27 @@
+<style>
+            th,td {
+                border: 1px solid blue;
+                padding: 5px;
+            }
+            table{
+                border-collapse: collapse;
+            }
+		.tier1 {
+  		margin: 5px
+  		padding: 5px;
+		text-align: center;
+		}
+ h4,p {
+       margin: 0;
+    }
+h5,p {
+       margin: 0;
+    }
+	 #mytable {width:1250px; margin:0 auto;}
+ #mytable .right {text-align:right;}	
+ #mytable .left {text-align:left;}
+	
+		
+
+		
+  </style>
