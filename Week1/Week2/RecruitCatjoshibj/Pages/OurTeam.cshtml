@@ -1,0 +1,48 @@
+﻿@page
+@model RecruitCatjoshibj.Pages.OurTeamModel
+@{
+    ViewData["Title"] = "Our Team";
+}
+<h1>@ViewData["Title"]</h1>
+
+<html>
+<head>
+</head>
+<body>
+    <p>Our Recruitment team have 3 members:-</p>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <img style="height: 21.75rem" src="https://scontent.fluk1-1.fna.fbcdn.net/v/t1.18169-9/198424_1480557872717_5122640_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=de6eea&_nc_ohc=ESKDC-p1--kAX9QK_bV&_nc_ht=scontent.fluk1-1.fna&oh=b17e0fd9a184a499ec3e2eaee6bc7806&oe=61610FCB" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Bhawesh Joshi</h4>
+                    <p class="card-text">Data Analyst</p>
+                    <a class="btn btn-primary" asp-page="/Team_members/bhawesh">View Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img style="height: 21.75rem" src="https://cdn.icon-icons.com/icons2/1736/PNG/512/4043260-avatar-male-man-portrait_113269.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Sahil Sethi</h4>
+                    <p class="card-text">Technical Head</p>
+                    <a class="btn btn-primary" asp-page="/Team_members/Sahil">View Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card">
+                <img style="height: 21.75rem" src="https://i.kinja-img.com/gawker-media/image/upload/t_original/ijsi5fzb1nbkbhxa2gc1.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Jacob Joseph</h4>
+                    <p class="card-text">Content Head</p>
+                    <a class="btn btn-primary" asp-page="/Team_members/jacob">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
