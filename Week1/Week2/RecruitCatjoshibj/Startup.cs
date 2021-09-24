@@ -7,6 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Gtt.Uc.EntityFramework;
+using Microsoft.EntityFrameworkCore;
+using RecruitCatjoshibj.Data;
 
 namespace RecruitCatjoshibj
 {
@@ -23,6 +26,10 @@ namespace RecruitCatjoshibj
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+           // services.AddDbContext<RecruitCatjoshibjContext>(options =>
+                //    options.UseSqlServer(Configuration.GetConnectionString("RecruitCatjoshibjContext")));
+            services.AddGttMem<RecruitCatjoshibjContext>("c863c5c4-7f75-4816-92f1-e86a0c9c8845");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
